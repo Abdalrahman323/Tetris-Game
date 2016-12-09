@@ -1,2 +1,2 @@
 # Tetris-Game
-simple tetris game using c++
+a simple tetris game using c++
