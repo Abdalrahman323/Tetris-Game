@@ -1,17 +1,26 @@
-﻿Build started 12/9/2016 10:17:40 PM.
-     1>Project "D:\learn\tutorials\projects\Tetris game\project's code\tetrisssssssssssss\tetrisssssssssssss\tetrisssssssssssss.vcxproj" on node 2 (Build target(s)).
+﻿Build started 10/25/2017 8:30:43 PM.
+     1>Project "D:\Github\Tetris-Game\New folder\tetrisssssssssssss\tetrisssssssssssss\tetrisssssssssssss.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Tetris.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Tetris.cpp intalizeView.cpp shapes.cpp
+         shapes.cpp
+     1>d:\github\tetris-game\new folder\tetrisssssssssssss\tetrisssssssssssss\shapes.cpp(787): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\github\tetris-game\new folder\tetrisssssssssssss\tetrisssssssssssss\shapes.cpp(1296): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         intalizeView.cpp
          Tetris.cpp
-     1>d:\learn\tutorials\projects\tetris game\project's code\tetrisssssssssssss\tetrisssssssssssss\tetris.cpp(9): warning C4005: '_WIN32_WINNT' : macro redefinition
+     1>d:\github\tetris-game\new folder\tetrisssssssssssss\tetrisssssssssssss\tetris.cpp(9): warning C4005: '_WIN32_WINNT' : macro redefinition
                  c:\program files (x86)\windows kits\8.1\include\shared\sdkddkver.h(200) : see previous definition of '_WIN32_WINNT'
+         Generating Code...
+     1>d:\github\tetris-game\new folder\tetrisssssssssssss\tetrisssssssssssss\shapes.cpp(679): warning C4715: 'check_collision' : not all control paths return a value
+     1>d:\github\tetris-game\new folder\tetrisssssssssssss\tetrisssssssssssss\shapes.cpp(1291): warning C4715: 'check_limit_Left' : not all control paths return a value
+     1>d:\github\tetris-game\new folder\tetrisssssssssssss\tetrisssssssssssss\shapes.cpp(1046): warning C4715: 'check_limit_Right' : not all control paths return a value
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\learn\tutorials\projects\Tetris game\project's code\tetrisssssssssssss\Debug\tetrisssssssssssss.exe" /INCREMENTAL /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\learn\tutorials\projects\Tetris game\project's code\tetrisssssssssssss\Debug\tetrisssssssssssss.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\learn\tutorials\projects\Tetris game\project's code\tetrisssssssssssss\Debug\tetrisssssssssssss.lib" /MACHINE:X86 Debug\Tetris.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Github\Tetris-Game\New folder\tetrisssssssssssss\Debug\tetrisssssssssssss.exe" /INCREMENTAL /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Github\Tetris-Game\New folder\tetrisssssssssssss\Debug\tetrisssssssssssss.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Github\Tetris-Game\New folder\tetrisssssssssssss\Debug\tetrisssssssssssss.lib" /MACHINE:X86 Debug\Tetris.obj
          Debug\intalizeView.obj
          Debug\shapes.obj
-         tetrisssssssssssss.vcxproj -> D:\learn\tutorials\projects\Tetris game\project's code\tetrisssssssssssss\Debug\tetrisssssssssssss.exe
-     1>Done Building Project "D:\learn\tutorials\projects\Tetris game\project's code\tetrisssssssssssss\tetrisssssssssssss\tetrisssssssssssss.vcxproj" (Build target(s)).
+         LINK : D:\Github\Tetris-Game\New folder\tetrisssssssssssss\Debug\tetrisssssssssssss.exe not found or not built by the last incremental link; performing full link
+         tetrisssssssssssss.vcxproj -> D:\Github\Tetris-Game\New folder\tetrisssssssssssss\Debug\tetrisssssssssssss.exe
+     1>Done Building Project "D:\Github\Tetris-Game\New folder\tetrisssssssssssss\tetrisssssssssssss\tetrisssssssssssss.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.39
+Time Elapsed 00:00:25.15

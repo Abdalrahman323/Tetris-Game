@@ -24,7 +24,7 @@ RECT r;
 GetWindowRect(console, &r);   //stores the console's current dimensions
 
   //MoveWindow(window_handle, x, y, width, height, redraw_window);
-MoveWindow(console, r.left, r.top, 900, 600, TRUE);
+MoveWindow(console, r.left, r.top, 900, 900, TRUE);
 
 	intalizeView();
   intalize_Second_Board();   //of score && level
@@ -55,8 +55,8 @@ MoveWindow(console, r.left, r.top, 900, 600, TRUE);
 			draw_shape_N(current_shape, y, x, rotat, e);
 			draw_mat();                                                 //display the mat
 
-	  // if you want to view what happen actually just uncomment this and resize the window above to larger size say(1500 ,1500)
-	  //		out(); 
+		              			
+		          //	out();
 			
 				if (GetAsyncKeyState(VK_RIGHT) && check_limit_Right(current_shape, rotat, y, x))////if the user want to move or rotate the shape ///
 				{
